@@ -1,0 +1,1 @@
+# mapty_netlify_app
