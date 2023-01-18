@@ -13,6 +13,22 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <!-- =================================================================== -->
+    <!-- leaflet CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <!-- =================================================================== -->
+
     <script defer src="script.js"></script>
     <title>mapty // Map your workouts</title>
   </head>
@@ -106,7 +122,7 @@
         </li> -->
       </ul>
 
-      <p class="copyright">
+      <!-- <p class="copyright">
         &copy; Copyright by
         <a
           class="twitter-link"
@@ -115,9 +131,10 @@
           >Jonas Schmedtmann</a
         >. Use for learning or your portfolio. Don't use to teach. Don't claim
         as your own.
-      </p>
+      </p> -->
     </div>
 
+    <!-- for leaflet -->
     <div id="map"></div>
   </body>
 </html>
